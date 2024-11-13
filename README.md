@@ -7,8 +7,7 @@ Portfolio of Relevant Projects: Courses &amp; Personal Exploration
 
 **[Machine Learning algorithms implementation and exploration]**  
    - **Description**: Bayesian Inference Approach, Decision Trees, Clustering Algorithms.. based on different courses and online ressources
-   - **Skills**: Python, LSTM, Time Series Forecasting, Model Evaluation
-   - **Key Achievements**: Successfully predicted price movements with an RMSE of 2.5%.
+
 
 **[Crime Data Analysis in R]**  
    - **Description**: Performed exploratory data analysis on crime data from Los Angeles. Introductory R Class at Sorbonne School of Economics.
