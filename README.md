@@ -8,11 +8,6 @@ Portfolio of Relevant Projects: Courses &amp; Personal Exploration
 **[Machine Learning algorithms implementation and exploration]**  
    - **Description**: Bayesian Inference Approach, Decision Trees, Clustering Algorithms.. based on different courses and online ressources
 
-
-**[Crime Data Analysis in R]**  
-   - **Description**: Performed exploratory data analysis on crime data from Los Angeles. Introductory R Class at Sorbonne School of Economics.
-   - **Skills**: R
-
 **[Hi! Paris Hi!ckathon]**  
    - **Description**: I am enrolled in the Hackthon #5 organised by Hi! Paris. I downloaded some of their great ressources.
 
