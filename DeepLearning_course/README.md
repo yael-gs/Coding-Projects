@@ -6,7 +6,7 @@ This repository contains various deep learning projects implemented in Jupyter n
 
 ## Projects
 
-1. **[Project 1: MLP for Classification](DeepLearning_course\1 - MLP for classification.ipynb)**
+1. **[Project 1: MLP for Classification](1 - MLP for classification.ipynb)**
    - Description: A hand-coded Multi-Layer Perceptron (MLP) for basic classification with one hidden layer.
    - Plots:  
   - Input Data:  
