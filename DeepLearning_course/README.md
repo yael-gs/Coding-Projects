@@ -17,8 +17,10 @@ This repository contains various deep learning projects implemented in Jupyter n
     <img src="plots/1-loss_accuracy.png" alt="Training Metrics" width="500" />  
 
   - **Backward Propagation Equations**:  
-    <img src="plots/1-BP1.png" alt="Backward Propagation Part 1" width="500" />  
-    <img src="plots/1-BP2.png" alt="Backward Propagation Part 2" width="500" />
+   <div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="plots/1-BP1.png" alt="Backward Propagation Part 1" width="400" />
+  <img src="plots/1-BP2.png" alt="Backward Propagation Part 2" width="400" />
+</div>
 
 
 2. **[Project 2: ](project2.ipynb)**
