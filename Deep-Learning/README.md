@@ -28,7 +28,7 @@ This repository contains various deep learning projects implemented in Jupyter n
    - Plots:  
    ![Losses](plots/2-Pytorch.png)  
 
-3. **[Project 3: RNN for movie rating prediction](3-RNN_classfication_tensorflow.ipynb)**
+3. **[Project 3: RNN for movie rating prediction](3-RNN_classification_tensorflow.ipynb)**
    - Description:  
    We preprocess movie reviews from IMDB database, and aim to predict the rating 'good' or 'bad'.  
    We first use a simple fully connected approach, and we average the embeddings :  
@@ -44,10 +44,21 @@ This repository contains various deep learning projects implemented in Jupyter n
   <img src="plots/3-model-LSTM.png" alt="LSTM architecture" width="400" />
 </div>
 
-4. **[Project 3: Autoregressive models for music generation](4-RNN_autoregressive_tensorflow.ipynb)**
+4. **[Project 4: Autoregressive models for music generation](4-RNN_autoregressive_tensorflow.ipynb)**
    - Description:  
    Implementing many to many RNN architecture, to autoregressively generate music. 
    Two implementations : using a RNN, using transformers architecture
+
+5. **[Project 5: CNN for image classification](5-CNN_classificiation_pytorch.ipynb)**
+   - Description:  
+   Implementing many to many RNN architecture, to autoregressively generate music. 
+   Two implementations : using a RNN, using transformers architecture
+
+6. **[Project 6: CNN - Adversarial Approaches & Deep Dream](6-CNN_Adversarial_pytorch.ipynb)**
+   - Description:  
+   Exploring adversarial approaches in CNNS, how to transform an image so that it is classfied as whatever class we choose ? 
+   
+  
 
 
 
