@@ -23,15 +23,44 @@ This repository contains various deep learning projects implemented in Jupyter n
 </div>
 
 
-2. **[Project 2: ](project2.ipynb)**
-   - Description: A hand-coded Multi-Layer Perceptron (MLP) for basic classification with one hidden layer.
+2. **[Project 2: MLP using Pytroch ](project2.ipynb)**
+   - Description: For the same use case (classfication) we use Pytorch, with 3 different implementations : by hand, through the nn.sequential class, and creating a custom class. We make use of "autograd" available in pytorch to perform BP automatically 
    - Plots:  
-   ![Input Data](plots/1-input_data.png)  
-   ![Training Metrics](plots/1-loss_accuracy.png)
+   ![Losses](plots/2-Pytorch.png)  
 
-3. **[Project 3: ]()**
-   - Description:
+3. **[Project 3: RNN for movie rating prediction ]()**
+   - Description:  
+   We preprocess movie reviews from IMDB database, and aim to predict the rating 'good' or 'bad'.  
+   We first use a simple fully connected approach, and we average the embeddings :  
+   review_one_hot_encoded (review_len*dim_dictionnary) --EMBEDDING MATRIX (dim_dictionnary x embedding_dim) --> embedings .  
+   Then embeddings (review_len*embedding_dim) --AVERAGE--> avg_embedding(embedding_dim) -- FC + activation --> rating (0 or 1)  
+     
+  Doing so, we train the EMBEDDING MATRIX. Which grasps the "proximity", in terms of meaning, of words for instance.
+  Then we replace the averaging of the embeddings by a LSTM many-to-one : we gain 1 pt of accuracy compared to the fully connected approach.
+  
    - Plots:
-     - ![Input Data]()
-     - ![Training Metrics]()
+   <div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="plots/3-model-mean.png" alt="Simple Architechture" width="400" />
+  <img src="plots/3-model-LSTM.png" alt="LSTM architecture" width="400" />
+</div>
+
+3. **[Project 3: RNN for movie rating prediction ]()**
+   - Description:  
+   We preprocess movie reviews from IMDB database, and aim to predict the rating 'good' or 'bad'.  
+   We first use a simple fully connected approach, and we average the embeddings :  
+   review_one_hot_encoded (review_len*dim_dictionnary) --EMBEDDING MATRIX (dim_dictionnary x embedding_dim) --> embedings .  
+   Then embeddings (review_len*embedding_dim) --AVERAGE--> avg_embedding(embedding_dim) -- FC + activation --> rating (0 or 1)  
+     
+  Doing so, we train the EMBEDDING MATRIX. Which grasps the "proximity", in terms of meaning, of words for instance.
+  Then we replace the averaging of the embeddings by a LSTM many-to-one : we gain 1 pt of accuracy compared to the fully connected approach.
+  
+   - Plots of the architecture used :
+   <div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="plots/3-model-mean.png" alt="Simple Architechture" width="500" />
+  <img src="plots/3-model-LSTM.png" alt="LSTM architecture" width="500" />
+</div>
+
+
+
+
      
