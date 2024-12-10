@@ -2,4 +2,9 @@ D:\Desktop\Coding-Projects\Prediction-Challenge\Notebooks\27-11_X_train.npy
 Prediction-Challenge/Notebooks/27-11_y_train.npy
 Prediction-Challenge/Notebooks/27-11_X_train.npy
 *.csv
-*.csv
+*.npy
+*.h5
+*.v2
+*.h5
+*.h5
+Prediction-Challenge/Notebooks/best_model.h5
