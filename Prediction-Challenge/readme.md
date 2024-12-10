@@ -17,4 +17,7 @@ A machine learning project to classify 100-event sequences of tick-by-tick order
 ## Tools
 - TensorFlow, Keras, NumPy, Pandas, Matplotlib, Jupyter Notebook.
 
+## Usage
+conda env create -f spec-file.yml
+
 
