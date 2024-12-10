@@ -1,20 +1,13 @@
 # Coding-Projects
-Portfolio of Relevant Projects: Courses &amp; Personal Exploration
+Portfolio of Relevant Projects
 
-**[Deep Learning Course Projects]**  
-   - **Description**: As part of the Deep Learning 2024-2025 class - teached by G. Peeters &amp L. Le Folgoc - I worked on 6 Labs over the following subjects: MLP,RNN,CNN. 
-   - **Skills**: Python, PyTorch, Keras, TensorFlow 
+**[Deep Learning Foundations]**  
+   - **Description**: As part of the Deep Learning 2024-2025 class - teached by G. Peeters & L. Le Folgoc - I worked on 6 Labs to implement and understand the foundations of deepl learning, over the following subjects: MLP,RNN,CNN.  
 
-**[Machine Learning algorithms implementation and exploration]**  
-   - **Description**: Bayesian Inference Approach, Decision Trees, Clustering Algorithms.. based on different courses and online ressources
+**[Hackathon on Drought Prediction]**  
+   - **Description**: I enrolled in the Hackthon #5 organised by Hi! Paris. After Data Cleaning and feature engineering, we implemented a Mixture of Expert model with a Random Forest, XGBoost and a CatBoost classifiers to predict the level of groundwater for a given day and place. We achieved a F1 score of 0.55.
 
-**[Hi! Paris Hi!ckathon]**  
-   - **Description**: I am enrolled in the Hackthon #5 organised by Hi! Paris. I downloaded some of their great ressources.
-
-**[Reinforcement Learning]**  
-   - **Description**: Markov decision process, (to come : Dynamic programming, Online prediction, Online control, Bandit algorithms, Monte-Carlo tree search)
-
-**[Operational Research - Solving Logic games with Julia Solver]**
-  - **Description** : Automatic modeling of the logic games "Unruly" and "Singles" using a solver based on linear programming optimization methods
+**[Stock Identification from Order Book]**
+  - **Description** : I designed and trained a LSTM to predict which stock is being traded, based on anonymized 100-events sequences from order book. (Capital Fund Managment 2024 Data Challenge)
 
 
